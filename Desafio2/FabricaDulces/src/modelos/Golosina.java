@@ -35,8 +35,7 @@ public abstract class Golosina {
 
     @Override
     public String toString() {
-        return "Golosina:\n" +
-                "\tCodigo: " + codigo + "\n"+
+        return  "\tCodigo: " + codigo + "\n"+
                 "\tNombre: " + nombre + "\n"+
                 "\tPrecio: " + precio + "\n"+
                 "\tIngredientes: " + ingredientes;
